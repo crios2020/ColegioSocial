@@ -1,0 +1,15 @@
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/repositories/jdbc/AlumnoRepository.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/ControladorWeb.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/connectors/Connector.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/repositories/jdbc/CursoRepository.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/ProyectoFinalApplication.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/test/TestHolaMundo.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/repositories/interfaces/I_AlumnoRepository.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/enums/Turno.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/test/TestRepository.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/enums/Dia.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/entities/Curso.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/repositories/interfaces/I_CursoRepository.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/test/TestConnector.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/util/Configuraciones.java
+/home/carlos/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/java-wp-agosto-clase17/src/main/java/ar/com/eduit/curso/java/entities/Alumno.java

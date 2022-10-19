@@ -1,0 +1,13 @@
+Software Necesario
+- Mariadb Comunnity Server o MySQL Comunnity Server
+            Paquete XAMPP   apachefriends.org
+            o
+            Paquete WAMP    wampserver.com 
+
+- Cliente de Base de datos
+            MySQL WorkBench
+            Dbeaver CE 
+            VSCode Extension mysql Matheus Texeira
+
+
+

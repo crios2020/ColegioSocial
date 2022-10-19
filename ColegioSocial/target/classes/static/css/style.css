@@ -1,0 +1,138 @@
+body {
+    background-color: burlywood;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    color: yellow
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* bloque de comentarios */
+h1 {
+    color: red;
+    background-color: gainsboro;
+    text-align: center;
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.portada{
+    margin: 20px;
+}
+.img_portada{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+#form_alta{
+    background-color: rgb(180, 180, 232);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15%; 
+    border-radius: 18px;       
+}
+
+#buscar_items{
+    background-color: rgb(180, 180, 232);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 18px;
+}
+
+#buscar_items table{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    color:rgb(77, 77, 171);
+}
+
+#buscar_items th{
+    border-style: double;
+    background-color: burlywood;
+    padding: 4px;
+}
+#buscar_items tr{
+    background-color: darkcyan;
+    padding: 4px;
+}
+
+.text{
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    width: 200px;
+}
+.select{
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    width: 210px;
+}
+.select2{
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    width: 280px;
+}
+.text2{
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    width: 340px;
+}
+.label{
+    padding: 5px;
+    color: blueviolet;
+}
+.button{
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    width: 120px;
+}

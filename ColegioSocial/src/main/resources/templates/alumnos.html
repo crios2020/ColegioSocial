@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Colegio</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <ul>
+        <li><a href="/"         >Inicio         </a></li>
+        <li><a href="/cursos"   >Cursos         </a></li>
+        <li><a href="/alumnos"  >Alumnos        </a></li>
+        <li><a href="/config"   >Configuración  </a></li>
+        <li>v0.99</li>
+    </ul>
+    <h1>Mantenimiento de Alumnos</h1>
+    <div id="form_alta">
+        <form th:object="${alumno}" th:action="@{/saveAlumno}" method="post">
+            <table>
+
+                <tr>
+                    <td><label class="label">Nombre: </label></td>
+                    <td><input class="text" type="text" th:field="*{nombre}" 
+                            minlength="3" maxlength="20" required ></td>
+                </tr>
+                <tr>
+                    <td><label class="label">Apellido: </label></td>
+                    <td><input class="text" type="text" th:field="*{apellido}" 
+                            minlength="3" maxlength="20" required ></td>
+                </tr>
+                <tr>
+                    <td><label class="label">Edad: </label></td>
+                    <td><input class="text" type="number" th:field="*{edad}" 
+                            min="18" max="120" required ></td>
+                </tr>
+                <tr>
+                    <td><label class="label">Curso: </label></td>
+                    <td>
+                        <select class="select2" th:field="*{idCurso}">
+                            <option th:each="curso : ${cursos}" 
+                                th:value="${curso.id}" 
+                                th:text="${curso.id}+', '+${curso.titulo}+', '+${curso.profesor}+', '+${curso.dia}+', '+${curso.turno}"
+                            >
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="reset" value="Borrar"></td>
+                    <td><input class="button" type="submit" value="Enviar"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label class="label" th:text="${mensajeAlumno}"></label></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="buscar_items">
+
+        <form method="GET">
+            <label class="label">Buscar Apellido: </label>
+            <input class="text" type="text" name="buscarApellido" value="">
+            <input class="button" type="submit" >
+        </form>
+
+        <table>
+            <tr><th>Id</th><th>Titulo</th><th>Profesor</th><th>Día</th><th>Turno</th></tr>
+            <tr th:each="alumno : ${startApellido}">
+            <!-- <tr th:each="alumno : ${likeApellido}"></tr> -->
+                <td th:text="${alumno.id}"></td>
+                <td th:text="${alumno.nombre}"></td>
+                <td th:text="${alumno.apellido}"></td>
+                <td th:text="${alumno.edad}"></td>
+                <td th:text="${alumno.idCurso}"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
